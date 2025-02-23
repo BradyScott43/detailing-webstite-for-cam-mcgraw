@@ -1,0 +1,59 @@
+<!--
+Author: Brady Scott
+File: CMC Detailing Website
+Date: 2/20/2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CMC Mobile Auto Details</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <span class="logo">CMC Details</span>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="book.html" style="text-decoration: underline;">Book Now</a>
+            </div>
+        </nav>
+        
+        
+        
+    </header>
+    <main>
+        
+        <div class="img_div">
+            <img src="images/CMC DETAILS - LOGO (3).png" alt="" class="header_img">
+        </div>
+        <h1>Book an Appointment</h1>
+        <div class="form-section">
+            <form action="https://formsubmit.co/bradycoltonscott2008@gmail.com" method="POST">
+                <input type="text" id="name"  name="name" placeholder="First and Last Name (required)"  required>
+                <input type="text" id="vehile_type" name="vehile_type" placeholder="Vehicle Year, Make & Model (required)"  required>
+                <input type="text" id="address"  name="address" placeholder="Address (required)"  required>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                <select id="detail_type" name="detail_type" required placeholder="Select Detail">
+                    <option value="" disabled selected>Select Detail Type </option>
+                    <option value="Standard Interior" >Standard Interior </option>
+                    <option value="Standard Exterior">Standard Exterior</option>
+                    <option value="Full Interior" >Full Interior </option>
+                    <option value="Full Exterior">Full Exterior</option>
+                    <option value="Standard Interior" >Standard Interior and Exterior</option>
+                    <option value="Standard Interior" >Full Interior and Exterior</option>
+                </select>
+                
+                <input type="text" id="add_ons" name="add_ons" placeholder="Type any and all Add-Ons you would like to receive.">
+
+                </div>
+                <input class="submit" id="submit" type="submit">
+            </form>
+        </div>
+    </main>
+    
+    
+</body>
+</html>
