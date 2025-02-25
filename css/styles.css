@@ -1,0 +1,348 @@
+/*
+Header Styling
+*/
+
+
+
+h1 {
+    text-align: center;
+}
+.header {
+    text-align: center;
+    box-shadow: 0 20px 5px 0px rgb(181, 181, 181);
+    height: 100%;
+    width: 100%;
+    padding: .5%;
+    font-size: 15px;
+    
+}
+
+
+main {
+    width: 100%;
+}
+.header_img {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 25%;
+    
+
+    
+    
+}
+
+/* 
+Link Styling
+*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px; /* Adjust spacing between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+form styles
+*/
+input[type="text"], input[type="number"], input[type="date"], select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    background-color: #222;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+
+
+
+.form-section {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.form-section input{
+    width: 100%;
+    
+}
+
+
+#name {
+    width: 46%;
+    flex: 1;
+}
+
+
+#vehile_type {
+    width: 96%;
+}
+
+#phone {
+    width: 96%;
+}
+
+#detail_type {
+    width: 99%;
+}
+
+#address {
+    width: 96%;
+}
+#submit {
+    width: 60%;
+    margin: auto;
+
+    display: block;
+}
+
+
+
+.img_div img {
+    height: 50%;
+    
+    width: 20%;
+}
+select {
+    padding: 0.4%;
+    box-sizing: border-box;
+}
+input {
+    box-sizing: border-box;
+}
+.packs {
+    max-width: 600px;
+    margin: 0 auto;
+    color: black;
+    padding-bottom: 1em;
+  }
+  
+  .pack-item {
+    background: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1em;
+    margin-bottom: .8em;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pack-title {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pack-info {
+    display: none;
+    padding-top: 10px;
+  }
+  
+  .pack-item.active .pack-info {
+    display: block;
+  }
+
+
+#add_ons {
+    height: 150%;
+    width: 96%;
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    input[type="text"], input[type="number"], input[type="date"], select {
+        padding: 8px;
+        margin: 5px 0;
+        width: 100%;
+        background-color: #222;
+        color: #e0e0e0;
+        border: 1px solid #555;
+        border-radius: 4px;
+    }
+    
+    
+    
+    .form-section {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .form-section input{
+        width: 100%;
+        
+    }
+    
+    
+    #name {
+        width: 90%;
+        
+    }
+    
+    
+    #vehile_type {
+        width: 90%;
+    }
+    
+    #phone {
+        width: 90%;
+    }
+    
+    #detail_type {
+        width: 90%;
+    }
+    
+    #address {
+        width: 90%;
+    
+    }
+    #add_ons {
+        
+        width: 90%;
+
+    }
+    #submit {
+        width: 90%;
+        margin: auto;
+        
+    
+        display: block;
+    }
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    input[type="text"], input[type="number"], input[type="date"], select {
+        padding: 8px;
+        margin: 5px 0;
+        width: 100%;
+        background-color: #222;
+        color: #e0e0e0;
+        border: 1px solid #555;
+        border-radius: 4px;
+    }
+    
+    
+    
+    .form-section {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .form-section input{
+        width: 100%;
+        
+    }
+    
+    
+    #name {
+        width: 80%;
+        
+    }
+    
+    
+    #vehile_type {
+        width: 80%;
+    }
+    
+    #phone {
+        width: 80%;
+    }
+    
+    #detail_type {
+        width: 80%;
+    }
+    
+    #address {
+        width: 80%;
+    
+    }
+    #add_ons {
+        
+        width: 80%;
+
+    }
+    #submit {
+        width: 70%;
+        margin: auto;
+        
+    
+        display: block;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    input[type="text"], input[type="number"], input[type="date"], select {
+        padding: 8px;
+        margin: 5px 0;
+        width: 100%;
+        background-color: #222;
+        color: #e0e0e0;
+        border: 1px solid #555;
+        border-radius: 4px;
+    }
+    
+    
+    
+    .form-section {
+        text-align: center;
+        width: 75%;
+        margin: auto;
+    }
+
+    .form-section input{
+        width: 100%;
+        
+    }
+    
+    
+    #name {
+        width: 75%;
+        
+    }
+    
+    
+    #vehile_type {
+        width: 75%;
+    }
+    
+    #phone {
+        width: 75%;
+    }
+    
+    #detail_type {
+        width: 75%;
+    }
+    
+    #address {
+        width: 75%;
+    
+    }
+    #add_ons {
+        
+        width: 75%;
+
+    }
+    #submit {
+        width: 60%;
+        margin: auto;
+        
+    
+        display: block;
+    }
+}
