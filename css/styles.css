@@ -3,7 +3,9 @@ Header Styling
 */
 
 
-
+ol {
+    list-style: circle;
+}
 h1 {
     text-align: center;
 }
@@ -67,8 +69,9 @@ input[type="text"], input[type="number"], input[type="date"], select {
     width: 100%;
     background-color: #222;
     color: #e0e0e0;
-    border: 1px solid #555;
-    border-radius: 4px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+
 }
 
 
@@ -136,8 +139,8 @@ input {
   
   .pack-item {
     background: whitesmoke;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
     padding: 1em;
     margin-bottom: .8em;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
